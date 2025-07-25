@@ -12,18 +12,21 @@ A conversational AI chatbot built with **Streamlit**, **Google Gemini API**, and
 - 🧠 Powered by Google Gemini 2.0 Flash API
 - 💬 Multiple chat sessions per user
 - 💾 MySQL integration to save and load chats
-- ⚡ Clean, responsive Streamlit UI
-- 🛠️ Automatic database and table initialization
+- 🗂️ Persistent storage using JSON and timestamps
+- ⚡ Responsive and modern UI using Streamlit
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python
+- Python 3.x
 - Streamlit
-- Google Gemini API (REST)
+- Google Gemini API
 - MySQL
-- mysql-connector-python
+- `mysql-connector-python`
+- `requests`
+- `json`
+- `os`
 
 ---
 
